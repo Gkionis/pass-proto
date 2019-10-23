@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block pageTitle %}
+Override the default page title (title element).
+{% endblock %}
+{% block bodyStart %}
+Add content after the opening body element
+{% endblock %}
+{% block beforeContent %}
+Add content that needs to appear outside main element.
+For example: The back link component, phase banner component.
+{% endblock %}
+{% block content %}
+Add content that needs to appear centered in the main element.
+{% endblock %}
+{% block bodyEnd %}
+Add content just before the closing body element
+{% endblock %}
